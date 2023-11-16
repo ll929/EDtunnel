@@ -4,8 +4,9 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-// let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
-let userID = '91d16309-cb58-4eab-8b31-e3f474b9ae35,bd437125-f861-4c77-b21e-0337c8b9b1a2, 3c8dbc76-86c3-4b46-bbc3-301d71af4fa6, 70ae5785-4879-46b8-90e3-81b613a74b65, ca983c55-03d2-4ba4-86fb-9d4cc6c507eb, f121b57d-79dd-4570-9022-82215d7d2459, 9862c4a4-e9cc-4e87-aeae-0ba6c0ee25fb, 40d13800-8ebd-4aa7-bd59-6fe93c2d1184, ad428c25-6351-46fa-812f-974e550e0dd0, 8dcfa06c-7cf9-4ba8-8c22-c7f8c47e9856'
+let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
+let userID = aeae-0ba6c0ee25fb, 40d13800-8ebd-4aa7-bd59-6fe93c2d1184, ad428c25-6351-46fa-812f-974e550e0dd0, 8dcfa06c-7cf9-4ba8-8c22-c7f8c47e9856'.replaceAll(' ','') 
+'91d16309-cb58-4eab-8b31-e3f474b9ae35,bd437125-f861-4c77-b21e-0337c8b9b1a2,3c8dbc76-86c3-4b46-bbc3-301d71af4fa6,70ae5785-4879-46b8-90e3-81b613a74b65,ca983c55-03d2-4ba4-86fb-9d4cc6c507eb,f121b57d-79dd-4570-9022-82215d7d2459,9862c4a4-e9cc-4e87-aeae-0ba6c0ee25fb,40d13800-8ebd-4aa7-bd59-6fe93c2d1184,ad428c25-6351-46fa-812f-974e550e0dd0,8dcfa06c-7cf9-4ba8-8c22-c7f8c47e9856';
 
 const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
 
